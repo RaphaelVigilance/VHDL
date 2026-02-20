@@ -53,7 +53,7 @@ begin
 		cnt <= 0;
 		else
 		 if(rising_edge(clk)) then
-			if(cnt = 25000000)then
+			if(cnt = 2)then
 				cnt <=0;
 				tmp <= not tmp;
 			else
